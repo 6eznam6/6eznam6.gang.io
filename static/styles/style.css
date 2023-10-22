@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@1&display=swap');
+
+body {
+    font-size: 0.9rem;
+    background-color: rgb(255, 173, 50);
+}
+
+.main-info {
+    border: rgb(0, 255, 68);
+}
+
+.pictures {
+    background-color: yellow
+}
+
+.left-cont,
+.center-cont {
+    text-align: justify;
+    background-color: rgb(255, 255, 0);
+}
+
+.right-cont {
+    background-color: rgb(154, 255, 233);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
+span {
+    font-style: italic;
+}
+
+.center-cont img {
+    width: 40%;
+    float: left;    
+    margin: 0.5%;
+    border: 5px;
+    border: 1px solid red;
+}
+
+.gang {
+    font-family: Alumni Sans Collegiate One;
+    margin-top: 0;
+}
+
+.underteam {
+    background-color: rgb(255, 194, 80);
+}
+
+
+.team-cont {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    gap: 1em 0.5em;
+}
+
+.name {
+    text-align: end;
+}
+
+.info {
+    text-align: left;
+}
